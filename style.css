@@ -1,0 +1,52 @@
+*{
+    background-color: black;
+    color: #00FF19;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+
+input[type="password"] {
+  
+  border: none;
+  padding: 0;
+  font-family: 'Courier New', Courier;
+  box-shadow:none;
+  height: 16px;
+  width: 110px;
+  text-align: left;
+}
+
+input[type="password"]:focus {
+  outline: none;
+  border-color: none;
+  box-shadow:none;
+}
+
+.full-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* styles.css */
+#granted-text {
+  border: 2px solid #00FF19; /* Set the border style, width, and color */
+  padding: 20px; /* Optional: Add some padding inside the box */
+}
+
+#denied-text {
+  color: red;
+  border: 2px solid red; /* Set the border style, width, and color */
+  padding: 20px; /* Optional: Add some padding inside the box */
+}
